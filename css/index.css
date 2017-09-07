@@ -1,0 +1,522 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+header{
+	width: 18.0rem;
+	height: 1.25rem;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+	width: 1.975rem;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+header p{
+	font-size: 0.45rem;
+	height: 100%;
+	padding-left: 0.875rem;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 1.25rem;
+	background: url(../images/phone.png) no-repeat 0 center;
+	background-size: 0.55rem 0.65rem;
+	padding-top: 0.125rem
+}
+.banner{
+	width: 18.0rem;
+	overflow: hidden;
+}
+.banner img{
+	width: 18.0rem;
+}
+.main1{
+	width: 18.0rem;
+	overflow: hidden;
+	padding-bottom: 0.875rem;
+}
+.main_tt{
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #333;
+	margin-top: 1.05rem;
+	background: url(../images/m1_tt.png) no-repeat center;
+	background-size: 15.0rem 0.225rem
+}
+.btn_box{
+	width: 18.0rem;
+	overflow: hidden;
+	margin-top: 0.85rem;
+}
+.btn_box li{
+	float: left;
+	margin-left: 0.05rem;
+	height: 1.1rem;
+}
+.btn_box li:first-child{
+	border-bottom: 2px solid #ce1a38;
+}
+.btn_box li a{
+	display: block;
+	width: 4.45rem;
+	height: 1.05rem;
+	background: #f5f5f5;
+	font-size: 0.5rem;
+	color: #ce1a38;
+	text-align: center;
+	line-height: 1.05rem;
+}
+.btn_box li a.on1{
+	background: #ce1a38;
+	color: #fff;
+	font-weight: bold;
+}
+.zz_yp{
+	width: 18.0rem;
+	height: 14.5rem;
+	overflow: hidden;
+	margin-top: 1.0rem;
+	position: relative;
+}
+.yp{
+	position: absolute;
+	left: 0.75rem;
+	top: 0.425rem;
+}
+.yp img{
+	width: 8.625rem;
+}
+.zz_tt{
+	font-size: 0.65rem;
+	line-height: 0.65rem;
+	position: absolute;
+	right: 2.125rem;
+	top: 0;
+	color: #333;
+}
+.zz_cc{
+	width: 7.675rem;
+	position: absolute;
+	right: 0;
+	top: 0.65rem;
+}
+.zz_cc p a{
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	height: 0.55rem;
+	display:block;
+	padding-left: 0.95rem;
+	background: url(../images/zzbig.png) no-repeat left center;
+	background-size: 0.55rem 0.55rem;
+	color: #ce1a38;
+	margin-top: 0.55rem;
+	font-weight: bold;
+}
+.zz_cc ul li a{
+	font-size: 0.45rem;
+	color: #ce1a38;
+	padding-left: 0.75rem;
+	margin-left: 0.2rem;
+	margin-top: 0.5rem;
+	line-height: 0.45rem;
+	background: url(../images/zz_sm.png) no-repeat left center;
+	background-size: 0.35rem 0.35rem;
+	display: block;
+}
+.zz_price{
+	width: 18.0rem;
+	overflow: hidden;
+	position: absolute;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	font-size: 0.45rem;
+	color: #333;
+	bottom: 2.15rem;
+	text-align: center;
+}
+.zz_price img{
+	width: 1.375rem;
+}
+.zz_buy{
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+}
+.zz_buy a{
+	display: block;
+	float: left;
+	width: 5.4rem;
+	height: 1.3rem;
+	border-radius: 0.1rem;
+	font-size: 0.45rem;
+	color: #fff;
+	line-height: 1.3rem;
+	text-align: center;
+}
+.zz_buy a:first-child{
+	margin-left: 2.25rem;
+	background: #ce1a38;
+}
+.zz_buy a:last-child{
+	margin-left: 2.5rem;
+	background: #333;
+}
+.main2{
+	width: 18.0rem;
+	height: 13.125rem;
+	overflow: hidden;
+	background: url(../images/main2.jpg) no-repeat center;
+	background-size: 18.0rem 13.125rem;
+}
+.main2 .main_tt{
+	background: url(../images/m2_tt.png) no-repeat center;
+	background-size: 12.25rem 0.225rem;
+	color: #fcff00
+}
+video{
+	width: 17.5rem;
+	height: 9.85rem;
+	margin: 0.85rem auto;
+	display: block;
+}
+.main3{
+	width: 18.0rem;
+	overflow: hidden;
+	background: #f8f8f8;
+	padding-bottom: 0.8rem;
+}
+.main3 .main_tt{
+	background: url(../images/m3_tt.png) no-repeat center;
+	background-size: 14.475rem 0.225rem;
+}
+.main3_cc{
+	width: 18.0rem;
+	height: 14.125rem;
+	position: relative;
+}
+.yfz{
+	position: absolute;
+	left: 0.8rem;
+	top: 0.5rem;
+}
+.yfz img{
+	width: 8.25rem;
+}
+.yfz_less{
+	width: 7.625rem;
+	position: absolute;
+	right: 0;
+	top: 2.875rem;
+}
+.yfz_less li a{
+	display: inline-block;
+	padding-left: 1.125rem;
+	font-size: 0.5rem;
+	line-height: 0.5rem;
+	margin-top: 0.65rem;
+	background: url(../images/yfz_sm.png) no-repeat left center;
+	background-size: 0.4rem 0.4rem;
+	color: #c238a6;
+	font-weight: bold;
+}
+.yfz_price{
+	position: absolute;
+	bottom: 1.75rem;
+	overflow: hidden;
+	height: 1.25rem;
+	line-height: 1.25rem;
+}
+.yfz_price span{
+	font-size: 0.45rem;
+	vertical-align: middle;
+	color: #333;
+	margin-left: 0.85rem;
+}
+.yfz_price img{
+	vertical-align: middle;
+	width: 1.575rem;
+}
+.yfz_price a{
+	vertical-align: middle;
+	display: inline-block;
+	width: 4.75rem;
+	height: 1.15rem;
+	border-radius: 0.1rem;
+	font-size: 0.45rem;
+	line-height: 1.15rem;
+	text-align: center;
+	color: #fff;
+	background: #c238a6;
+	margin-left: 1.15rem;
+}
+.yfz_yh{
+	position: absolute;
+	bottom: 0.0rem;
+	overflow: hidden;
+	height: 1.25rem;
+	line-height: 1.25rem;
+}
+.yfz_yh span{
+	font-size: 0.45rem;
+	vertical-align: middle;
+	color: #333;
+	margin-left: 0.85rem;
+}
+.yfz_yh img{
+	vertical-align: middle;
+	width: 2.075rem;
+}
+.yfz_yh a{
+	vertical-align: middle;
+	display: inline-block;
+	width: 4.75rem;
+	height: 1.15rem;
+	border-radius: 0.1rem;
+	font-size: 0.45rem;
+	line-height: 1.15rem;
+	text-align: center;
+	color: #fff;
+	background: #c238a6;
+	margin-left: 2.325rem;
+}
+.main4{
+	width: 18.0rem;
+	overflow: hidden;
+	padding-bottom: 0.8rem;
+}
+.main4 .main_tt{
+	background: url(../images/m3_tt.png) no-repeat center;
+	background-size: 14.475rem 0.225rem
+}
+.main3_cc{
+	width: 18.0rem;
+	height: 13.875rem;
+	position: relative;
+}
+.ll{
+	position: absolute;
+	left: 0.8rem;
+	top: 1.0rem;
+}
+.ll img{
+	width: 8.25rem;
+}
+.cc_less{
+	width: 7.625rem;
+	position: absolute;
+	right: 0;
+	top: 2.875rem;
+}
+.cc_less li a{
+	display: inline-block;
+	padding-left: 1.125rem;
+	font-size: 0.5rem;
+	line-height: 0.5rem;
+	margin-top: 1.0rem;
+	background: url(../images/llsm.png) no-repeat left center;
+	background-size: 0.5rem 0.5rem;
+	color: #045198;
+	font-weight: bold;
+}
+.main4 .yfz_yh a,.main4 .yfz_price a{
+	background: #045198;
+}
+.main5{
+	width: 18.0rem;
+	height: 13.025rem;
+	background: #f8f8f8;
+	overflow: hidden;
+}
+.main5 .main_tt{
+	background: url(../images/m5_tt.png) no-repeat center;
+	background-size: 14.475rem 0.225rem;
+}
+.m5_btn{
+	overflow: hidden;
+	margin-top: 0.625rem;
+	height: 1.55rem;
+	position: relative;
+}
+.m5_btn li{
+	width: 3.55rem;
+	height: 1.325rem;
+	float: left;
+	margin-left: 0.05rem;
+	background: #e74476;
+	color: #fff;
+	text-align: center;
+	line-height: 1.325rem;
+	font-size: 0.55rem;
+}
+.m5_btn li.active{
+	background: url(../images/jt.png) no-repeat center top;
+	background-size: 3.55rem 1.55rem;
+	font-weight: bold;
+	height: 1.55rem;
+}
+.m5_show{
+	width: 18.0rem;
+	height: 9.0rem;
+	overflow: hidden;
+	background: url(../images/sh.png) no-repeat 12.15rem 0.75rem;
+	position: relative;
+}
+.m5_show ul li a{
+	display:inline-block;
+	margin-left: 1.8rem;
+	padding-left: 1.15rem;
+	font-size: 0.5rem;
+	line-height: 0.5rem;
+	color: #bb335d;
+	font-weight: bold;
+	background: url(../images/gz.png) no-repeat left center;
+	background-size: 0.5rem 0.5rem;
+	margin-top: 0.95rem;
+}
+.m5_show ul li:nth-child(1){
+	margin-top:0.9rem;
+}
+.m5_price{
+	overflow: hidden;
+	position: absolute;
+	bottom: 0.9rem;
+}
+.m5_price p{
+	width: 11.0rem;
+	height: 1.65rem;
+	border: 1px solid #bb335d;
+	float: left;
+	margin-left: 0.25rem;
+	line-height: 1.65rem;
+}
+.m5_price p span{
+	font-size: 0.5rem;
+	vertical-align: middle;
+	margin-left: 0.375rem;
+}
+.m5_price p strong{
+	font-size: 0.9rem;
+	font-weight: bold;
+	vertical-align: middle;
+	color: #bb335d
+}
+.m5_price a{
+	display: block;
+	float: left;
+	width: 5.925rem;
+	height: 1.7rem;
+	border-radius: 0.1rem;
+	background: #bb335d;
+	text-align: center;
+	line-height: 1.7rem;
+	color: #fff;
+	font-size: 0.5rem;
+	margin-left: 0.3rem;
+}
+.main6{
+	width: 18.0rem;
+	height: 11.55rem;
+	overflow: hidden;
+	background: url(../images/main6.jpg) no-repeat center;
+	background-size: 18.0rem 11.55rem;
+}
+.main6 img:first-child{
+	float: left;
+	margin-top: 4.125rem;
+	margin-left: 3.0rem;
+	width: 5.825rem;
+}
+.main6 img:last-child{
+	float: right;
+	margin-right: 3.075rem;
+	margin-top: 4.125rem;
+	width: 5.675rem
+}
+.main7{
+	width: 18.0rem;
+	height: 9.175rem;
+	overflow: hidden;
+}
+.main7 h2{
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+	padding-left: 0.25rem;
+	margin-top: 0.9rem;
+}
+.m7_aa{
+	overflow: hidden;
+	margin-top: 0.75rem;
+	margin-left: 0.25rem;
+}
+.m7_aa a{
+	display: block;
+	margin-left: 0.15rem;
+	float: left;
+}
+.m7_aa a:first-child{
+	margin-left: 0
+}
+.m7_aa a img{
+	width: 5.725rem;
+}
+.foot{
+	width: 18.0rem;
+	height: 1.7rem;
+	background: #1b1b1b;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	z-index: 99999;
+}
+.foot .tel{
+	float: left;
+	font-size: 0.6rem;
+	height: 100%;
+	line-height: 1.7rem;
+	margin-left: 1.0rem;
+	color: #fff;
+}
+.foot .tel span{
+	color: #e60012;
+}
+.foot .QQ_ask{
+	float: right;
+	height: 1.7rem;
+	line-height: 1.7rem;
+	color: #fff;
+	font-size: 0.6rem;
+	margin-right: 1.0rem;
+}
+.bdsharebuttonbox{
+	overflow: hidden;
+	float: right;
+	width: 2.5rem!important;
+	height: 1.7rem!important;
+}
+.bdsharebuttonbox > a{
+	font-size: 0.6rem!important;
+	color: #fff!important;
+	width: 1.375rem!important;
+	height: 1.7rem!important;
+	display: block!important;
+	line-height: 1.7rem!important;
+	padding: 0!important;
+
+}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{
+	background-image: none!important;
+}
